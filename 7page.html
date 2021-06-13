@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>7page</title>
+</head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hi+Melody&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+	*{
+		margin: 0px;
+	}
+	.logo{
+		width: 90px;
+		background-color: white;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+  		margin-top: 120px;
+  	}
+
+  	.nav{
+  		width: 100%;
+		float: left;
+		height: 72px;
+		margin-top: 120px;
+		border: 1px solid #D8E0E4;
+		background-color: white;
+  	}
+  	#navi{
+  		postion: center;
+  		list-style: none;
+  		margin-left: 210px;
+  		float: left;
+  		list-style: none;
+  	}
+  	#navi li{
+  		float: left;
+	}
+	#navi li a{
+  		text-decoration: none;
+  		color: black;
+  		padding: 0 30px;
+  		line-height: 72px;
+  		display: block;
+  		font-weight: bold;
+	}
+
+	#navi li a:hover{
+		color: white;
+	  	background-color: #489DAB;
+	}
+  	#manu{
+  		text-decoration: none;
+  		color: #202020;
+ 		padding: 0 30px;
+  		line-height: 72px;
+  		display: block;
+  	}
+  	#nav-item{
+ 			justify-content: space-between;
+		}
+	#navi2{
+		list-style: none;
+		float: left;
+		margin-left:  400px;}
+
+	a{
+  		text-decoration: none;
+  	}
+  	.mainbanner{
+  		width: 100%;
+  		height: 600px;
+  		background-color: mediumpurple;
+  		margin-top: 192px;
+  	}
+  	.mini{
+        	margin-top: 120px;
+        	width: 1920px;
+        	height: 320px;
+        	background-color: #04547C;
+        }
+        h1{
+        	margin-top: 90px;
+        	float: left;
+        	margin-left: 240px;
+        	font-family: 'Nanum Gothic', sans-serif;
+        	font-size: 60px;
+        	color: white;
+        	vertical-align: middle;
+
+        }
+        .helper{
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+		}
+		.mininav{
+			width: 100%;
+			float: left;
+			height: 72px;
+			margin-top: 0px;
+			border: 1px solid #D8E0E4;
+			background-color: white;
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+		}
+	  	#minnavi{
+	  		postion: center;
+	  		list-style: none;
+	  		margin-left: 210px;
+	  		float: left;
+	  		list-style: none;
+		}
+	  	#minnavi li{
+	  		float: left;	
+		}
+		#minnavi li a{
+			font-family: 'Nanum Gothic', sans-serif;
+			text-decoration: none;
+	  		color: black;
+	  		padding: 0 30px;
+	  		line-height: 72px;
+	  		display: block;
+	  		font-weight: bold;
+		}
+
+		#minnavi li a:hover{
+			color: #5AACB9;
+			font-weight: 600;
+			font-family: 'Nanum Gothic', sans-serif;
+			font-size: 20px;
+	    	border-bottom: 4px solid #5AACB9;
+	    	box-sizing: border-box;
+	    	*clear: both;*
+		  	
+		}
+	  	#mmenu{
+	  		text-decoration: none;
+	  		color: #202020;
+	 		padding: 0 30px;
+	  		line-height: 72px;
+	  		display: block;	
+	  	}
+	  	.title{
+			font-family: 'Hi Melody', cursive;
+			font-size: 32px;
+			margin-left: 240px;
+			margin-right: 240px;
+			margin-top: 120px;
+			width: 220px;
+	    	border-bottom: 4px solid #5AACB9;
+	    	box-sizing: border-box;
+	    	*clear: both;*
+		}
+		.titleinfo p{
+			font-size: 20px;
+			font-family: 'Hi Melody', cursive;
+			margin-top: 12px;
+			margin-left: 240px;
+			color: #5AACB9;
+		}
+		h5{
+			font-size: 26px;
+			font-weight: bold;
+		}
+		.line{
+			margin-top: 1px;
+			float: left;
+			margin-right: 240px;
+			width: 1440px;
+	    	border-bottom: 1px solid #5AACB9;
+	    	box-sizing: border-box;
+	    	*clear: both;*
+		}
+		.snow{
+			margin-top: 60px;
+			margin-left: 240px;
+		}
+		.snow img{
+			border-radius: 20px;
+		}
+		.ajdajd img{
+			float: right;
+			width: 800px;
+		    margin-top: -420px;
+		    margin-right: 160px;
+		}
+		.ajdajd p{
+			font-size: 24px;
+			font-family: 'Hi Melody', cursive;
+			width: 700px;
+			float: left;
+			margin-left: 1020px;
+			margin-top: -120px;
+			margin-right: 240px;
+		}
+
+		div.photo-frame{
+		  text-align: center;
+		  padding:20px;
+		  border:1px solid silver;
+		  display:inline-block;
+		  background:white;
+		  margin-right: 15px;
+		  margin-top: 120px;
+		  margin-left: 15px;
+		}
+		.photo-frame, .photo-frame:after, .photo-frame:before{
+		  -webkit-box-sizing:border-box;
+		  -moz-box-sizing:border-box;
+		  box-sizing:border-box;
+		}
+
+		.photo-frame {
+			box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+			position: relative;
+		}
+		.photo-frame:before, .photo-frame:after {
+			border-radius: 100px 100px 100px 100px / 10px 10px 10px 10px;
+			bottom: 0;
+			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+			content: "";
+			left: 10px;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			z-index: -1;
+		}
+		.photo-frame:after {
+			left: auto;
+			right: 10px;
+			-webkit-transform: skew(8deg) rotate(3deg);
+			-moz-transform: skew(8deg) rotate(3deg);
+			-ms-transform: skew(8deg) rotate(3deg);
+			-o-transform: skew(8deg) rotate(3deg);
+			transform: skew(8deg) rotate(3deg);
+		}
+
+		.con{
+			margin-top: 10px;
+			float: left;
+		}
+		.con a{
+			font-weight: 600;
+			font-size: 16px;
+			margin-left: 240px;
+			margin-top: 40px;
+			float: left;
+			color: white;
+		}
+		.con p{
+			line-height: 24px;
+			font-size: 12px;
+			font-weight: 100;
+			margin-top: 10px;
+			margin-left: 240px;
+			margin-top: 0px;
+			color: #CCCCCC;
+		}
+		.fooot{ 
+			margin-top: 120px;
+		}
+		.footer{
+			margin-top: -10px;
+			width: 100%;
+			height: 280px;
+			background-color: #0F2247;
+		}
+		.toqha img{
+			vertical-align: middle;
+			text-align: center;
+			float: left;
+			margin-left: 240px;
+			margin-bottom: 120px;
+		}
+		.reco img{
+			margin-top: 120px;
+			vertical-align: middle;
+			text-align: center;
+			float: right;
+			margin-right: 240px;
+			margin-bottom: 120px;	
+		}
+
+
+</style>
+
+<body>
+	<!-- 메인로고 -->
+	<div class="logo">
+		<a href="index.html"><img src="photo/logo.png" alt="logo" width=90px;></a>
+	</div>	
+<!-- 네비게이션바 -->
+	<div class="nav">
+		<ul id="navi">
+			<li class="menu">
+				<a class="list" href="2page.html">브랜드</a>
+			</li>
+			<li class="menu">
+				<a class="list" href="4page.html">입양안내</a>
+			</li>
+			<li class="menu">
+				<a class="list" href="6page.html">입양</a>
+			</li>
+			<li class="menu">
+				<a class="list" href="#">후원</a>
+			</li>
+			<li class="menu">
+				<a class="list" href="#">서비스</a>
+			</li>
+			<li class="menu">
+				<a class="list" href="#">커뮤니티</a>
+			</li>
+
+ 		<ul id="navi2">
+	        <li class="nav-item">
+	          <a class="nav-link"  href="#">회원가입</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">로그인</a>
+	        </li>
+	    </ul>
+		</div>
+	</div>
+
+<!-- 미니배너 -->
+	<div class="helper"></div>
+		<div class="mini">
+				<h1>입양</h1>
+		</div>
+
+<!-- 미니네비게이션 -->
+<div class="mininav">
+	<ul id="minnavi">
+		<li class="mmenu">
+			<a class="mlist" href="6page.html">강아지 입양</a></li>
+		<li class="mmenu">
+			<a class="mlist" href="#">견종 별 성격</a></li>
+		<li class="mmenu">
+			<a class="mlist" href="#">강아지 MBTI</a></li>
+	</ul>
+</div>
+
+<!-- 브랜드 소개 -->
+<div class="title">
+	<h5>강아지 입양</h5>
+	<div class='line'></div>
+</div>
+<div class="titleinfo">
+	<p>선택하신 강아지에 대한 자세한 정보를 알려드려요!</p>
+</div>
+<div class="snow"><img src="https://i.postimg.cc/PrPRMfDy/1.jpg" width="720">
+</div>
+
+<div class="ajdajd">
+	<img src="https://i.postimg.cc/bvgv9RXK/image.jpg">
+	<p>새봄이의 전 가족분께서는 새봄이를 아끼고 너무 사랑하셨지만, 직장 생활이 갑자기 무척 바빠지고, 이직까지 먼 곳으로 가게되면서 보호소에 입소하게되었어요. 어린 나이만큼 호기심도 많고, 장난도 좋아하는 철부지 스타일의 친구에요!</p>
+</div>
+
+<!-- 강아지 사진 -->
+<div class="photo-frame">
+	<img src="https://i.postimg.cc/mk2pFBYv/2.jpg" width=300>
+</div>
+<div class="photo-frame">
+	<img src="https://i.postimg.cc/jSP0z6nt/3.jpg" width=300>
+</div>
+
+<div class="photo-frame">
+	<img src="https://i.postimg.cc/ZnCX06hk/4.jpg" width=300>
+</div>
+
+<div class="photo-frame">
+	<img src="https://i.postimg.cc/R048KkzL/5.jpg" width=300>
+</div>
+
+<!-- 타이틀 -->
+<div class="title">
+	<h5>웰시코기 특징</h5>
+	<div class='line'></div>
+</div>
+<div class="titleinfo">
+	<p>저는 이런 특징을 가지고 있어요!</p>
+</div>
+<div class="toqha">
+	<img src="https://i.postimg.cc/qMnW9p8b/image.png">
+</div>
+
+<!-- 브랜드 소개 -->
+<div class="title">
+	<h5>가족 추천</h5>
+	<div class='line'></div>
+</div>
+<div class="titleinfo">
+	<p>강아지와 적합한 가족을 추천해드려요!</p>
+</div>
+<div class="reco">
+	<img src="https://i.postimg.cc/NFhvHF6X/image.png" width=500>
+</div>
+<div class="reco">
+	<img src="https://i.postimg.cc/nL6Pd5Xb/mainm.png" width=800>
+</div>
+
+
+
+
+<!-- 푸터 -->
+<footer>
+	<img class="fooot" src="https://i.postimg.cc/FzmsH0YZ/footer2.png" width="100%">
+	<div class="footer">
+		<div class="con">
+			<a class="coco" href="#">도그짱 소개</a>
+			<p><br><br><br><br>상호: 행복한세상<br>
+				사업자번호: 126-24-81196<br>
+				주소: 서울시 마포구 독막로 19길12<br>
+				대표: 정하영
+			</p>
+		</div>
+		<div class="con">
+			<a class="coco" href="#">이용 약관</a>
+			<p><br><br><br><br>상단 약관 참고
+			</p>
+		</div>
+		<div class="con">
+			<a class="coco" href="#">개인정보처리방침</a>
+			<p><br><br><br><br>이메일 사용 동의 여부
+			</p>
+		</div>
+		<div class="con">
+			<a class="coco" href="#">후원 문의</a>
+			<p><br><br><br><br>전화 후원: 02-234-567<br>
+				계좌 번호: 987654-32-109876<br>
+				봉사 후원: 010-1234-5678(상담문의) <br>
+				결연 후원: 010-9876-5432(상담문의)
+			</p>
+		</div>	
+	</div>
+
+</footer>
+
+
+</body>
+</html>
